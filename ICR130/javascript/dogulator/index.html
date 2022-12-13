@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dogulator</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="main">
+            <h1>Dogulator</h1>
+            <div class="calculator borders">
+                <p class="display-text borders" id="displayText">0</p>
+                <div class="row">
+                    <input type="button" value="7" id="num7" onclick="pressButton(7)">
+                    <input type="button" value="8" id="num8" onclick="pressButton(8)">
+                    <input type="button" value="9" id="num9" onclick="pressButton(9)">
+                    <input type="button" value="/" id="divide" onclick="operators('divide')">
+                </div>
+                <div class="row">
+                    <input type="button" value="4" id="num4" onclick="pressButton(4)">
+                    <input type="button" value="5" id="num5" onclick="pressButton(5)">
+                    <input type="button" value="6" id="num6" onclick="pressButton(6)">
+                    <input type="button" value="*" id="multiply" onclick="operators('multiply')">
+                </div>
+                <div class="row">
+                    <input type="button" value="1" id="num1" onclick="pressButton(1)">
+                    <input type="button" value="2" id="num2" onclick="pressButton(2)">
+                    <input type="button" value="3" id="num3" onclick="pressButton(3)">
+                    <input type="button" value="-" id="subtract" onclick="operators('subtract')">
+                </div>
+                <div class="row">
+                    <input type="button" value="0" id="num0" onclick="pressButton(0)">
+                    <input type="button" value="&hellip;" onclick="clearDisplay()">
+                    <input type="button" value="=" id="enter" onclick="pressEnter()">
+                    <input type="button" value="+" id="add" onclick="operators('add')">
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="scripts.js" type="javascript"></script>
+</html>
