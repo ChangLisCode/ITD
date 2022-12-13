@@ -1,5 +1,5 @@
 table {
-    border: 1px solid black;
+    border: 1px solid;
     background-color:#0c1e1e;
     border-radius: 10px;
     text-align: center;
@@ -10,7 +10,7 @@ table {
     }
 
 td {
-    border: 1px solid black;
+    border: 1px solid;
     /*background-color:#D6EEEE;*/
     border-radius: 10px;
     text-align: center;
@@ -26,8 +26,8 @@ th {
     width: 60px;
     }
 
-button, input {
-    border: 1px solid hsla(0, 24%, 40%, 0.732);
+input {
+    border: 1px solid;
     /*background-color:hsla(0, 23%, 11%, 0.732);*/
     border-radius: 10px;
     text-align: center;

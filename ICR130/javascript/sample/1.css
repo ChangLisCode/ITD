@@ -1,0 +1,30 @@
+<style>
+        table{
+            border-collapse: collapse;
+            margin: auto auto;
+        }
+        td{
+            width: 150px;
+            line-height: 70px;
+        }
+        .btn{
+            width: 150px;
+            line-height: 70px;
+            font-size: x-large;
+        }
+        .btn_click{
+            width: 302px;
+            line-height: 70px;
+            font-size: x-large;
+        }
+        .txt{
+            width: 600px;
+            line-height: 100px;
+            font-size: x-large;text-align: right;
+        }
+    </style>
+
+作者：Joe1997
+链接：https://juejin.cn/post/6844903473692016647
+来源：稀土掘金
+著作权归作者所有。商业转载请联系作者获得授权，非商业转载请注明出处。
