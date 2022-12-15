@@ -5,16 +5,16 @@
 > - **PBLMT** start
 
 * #### Dec. 13 2022
-> - Github 1<sup>st</sup> update 
+>   - Github 1<sup>st</sup> update 
 
 ### ITD Logs
 
 * #### Dec. 13 2022
-> - First day of Javascript Dec. 13 2022 **start**
+>   - First day of Javascript **start**
 
 * #### Dec.14 2022
-> - *[w3school.com](https://www.w3school.com)* html tutorial **done** 
-> - *Markdown* **done**
+>   - *[w3school.com](https://www.w3school.com)* html tutorial **done** 
+>   - *Markdown* **done**
 >
 >
 >
