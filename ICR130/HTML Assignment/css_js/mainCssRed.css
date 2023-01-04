@@ -1,6 +1,6 @@
 /************************************/
 html,body {
-	background: url('../img/mainBg.png');
+	background: url(“img/110/mainBg.png”);
 	text-align: left;
 }
 
@@ -123,7 +123,7 @@ a {
 }
 
 #MainNav, #MainNavHome {
-	background: url('../img/mainNavBg.png');
+	background: url('../img/110/mainNavBg.png');
 	width: 380px;
 	height: 40px;
 	position: relative;
@@ -185,7 +185,7 @@ a {
 
 #footer {
 	padding: 10px 10px 0 10px;
-	background: url('../img/footerBg.png') repeat-x;
+	background: url('../img/110/footerBg.png') repeat-x;
 	height:45px;
 	line-height: 50px;
 	overflow: hidden;
@@ -250,7 +250,7 @@ a {
 	position: relative;
 	margin: 0 20px 20px;
 	background-color: #fefefe;
-	background: url('../img/listStrokes.png'), #fefefe;
+	background: url('../img/110/listStrokes.png'), #fefefe;
 	background-repeat: repeat-y;
 	width: 400px;
 	z-index: 20;
@@ -406,12 +406,12 @@ span.Comments {
 	padding: 8px 12px 7px;
 	text-decoration: none;
 	font-size: 12px;
-	background: url('../img/BtnGreenBg.png');
+	background: url('../img/110/BtnGreenBg.png');
 	color: #616b58;
 }
 
 .CategorySelected {
-	background: url('../img/BtnDarkGreenBg.png') !important;
+	background: url('../img/110/BtnDarkGreenBg.png') !important;
 	color: #d4d0bb !important;
 	text-shadow: -1px -1px 0px #49543f !important;
 }
@@ -453,7 +453,7 @@ span.Comments {
 }
 
 .readMore {
-	background: url('../img/BtnDarkGreenBg.png');
+	background: url('../img/110/BtnDarkGreenBg.png');
 	color: #d4d0bb;
 	padding: 9px 12px;
 	text-decoration: none;
@@ -468,7 +468,7 @@ span.Comments {
 }
 
 .BackButton {
-	background: url('../img/BtnDarkGreenBg.png');
+	background: url('../img/110/BtnDarkGreenBg.png');
 	margin-top: 10px;
 	color: #d4d0bb;
 	padding: 9px 12px;
@@ -507,12 +507,12 @@ span.Comments {
 	padding: 8px 12px 7px;
 	text-decoration: none;
 	font-size: 12px;
-	background: url('../img/BtnGreenBg.png');
+	background: url('../img/110/BtnGreenBg.png');
 	color: #616b58;
 }
 
 #Pagination li:first-child a {
-	background: url('../img/BtnDarkGreenBg.png');
+	background: url('../img/110/BtnDarkGreenBg.png');
 	text-transform: uppercase;
 
 	-webkit-border-radius: 14px 0 0 14px;
@@ -527,7 +527,7 @@ span.Comments {
 }
 
 #Pagination li:last-child a {
-	background: url('../img/BtnDarkGreenBg.png');
+	background: url('../img/110/BtnDarkGreenBg.png');
 	text-transform: uppercase;
 
 	-webkit-border-radius: 0 14px 14px 0;
@@ -649,7 +649,7 @@ input.readMore {
 .Notepad {
 	padding: 10px;
 	border: 1px solid #dfdfdf;
-	background: url('../img/notepadBg.png');
+	background: url('../img/110/notepadBg.png');
 	margin: 0 15px 30px;
 }
 
@@ -702,7 +702,7 @@ input.readMore {
 .CommentContent {
 	padding: 10px;
 	border: 1px solid #dfdfdf;
-	background: url('../img/notepadBg.png');
+	background: url('../img/110/notepadBg.png');
 	margin: 0 15px 30px;
 	min-height: 80px;
 }
@@ -742,7 +742,7 @@ input.readMore {
 
 .quote {
 	margin: 0 20px 40px !important;
-	background: url('../img/notepadBg.png');
+	background: url('../img/110/notepadBg.png');
 	width: 300px;
 	z-index: 20;
 	font-size: 27px !important;
