@@ -17,8 +17,9 @@ WHERE amount = 0.00
 ORDER BY payment_id ASC;
 
 -- 4 --
-SELECT DISTINCT languages
-FROM film;
+SELECT COUNT(language_id),name
+FROM language
+GROUP BY name;
 
 -- 5 --
 SELECT category_id  
@@ -102,7 +103,7 @@ FROM language
 ORDER BY language_id, name DESC;
 
 -- 15 --
-/* not finished*/
+/* not finished* FROM D TO H */
 
 SELECT first_name, last_name
 FROM actor
@@ -111,7 +112,7 @@ WHERE first_name LIKE 'D%'
 
 
 -- 16 --
-/* not finished*/
+/* not finished. FROM L TO Z */
 SELECT first_name, last_name,actor_id,
 CONCAT(first_name,'_', last_name,'@',actor_id) AS "Mail"
 FROM actor
@@ -120,10 +121,10 @@ WHERE first_name LIKE 'L%'
 
 -- 17 -- 
 /* not finished*/
-SELECT COUNT(DISTINCT first_name) AS FT,
-COUNT(DISTINCT last_name) AS LT
+SELECT COUNT(first_name), last_name
 FROM actor
 WHERE first_name = 'Ben' 
 	OR first_name = 'Bob' 
 	OR first_name = 'Allen' 
-	OR last_name = 'Brown';
+	OR last_name = 'Brown'
+GROUP BY first_name;
