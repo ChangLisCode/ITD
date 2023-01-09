@@ -99,22 +99,45 @@ ORDER BY 1;
 
 --assignments 6
 SELECT COUNT (DISTINCT first_name) AS Repetition_first_name,
-COUNT (DISTINCT last_name) AS Repetion_last_name
+COUNT (DISTINCT last_name) AS Repetion_last_name,
 COUNT (DISTINCT last_name AND first_name) AS Repetion_full_name
 FROM actor;
 
-
-
-
-
 --Assignment 7
+/*In the given database, who are those 2 people who have the name first name and last name?
+Write a query to find those two people.*/
 
-
+select first_name, last_name, count(*)
+from actor
+group by first_name, last_name
+HAVING count(*) > 1;
 
 --Assignment 8
-
+/*In the given database, find all the unique first names from the actor table that occur more than 3 times. Sort the results in ASCENDING order by first name.
+*/
+SELECT DISTINCT first_name, count(*)
+FROM actor
+GROUP BY first_name
+HAVING count(*) > 3;
 
 --Assignment 9
+/* In the given base, execute all the first names and then all the last names that are repeated 3 or 4 times.*/
+
+SELECT first_name, COUNT(*) 
+FROM actor
+GROUP BY first_name
+HAVING (COUNT(first_name) = 3 OR COUNT(first_name) = 4)
+union
+SELECT last_name, COUNT(*)
+FROM actor
+GROUP BY last_name
+HAVING (COUNT(last_name) = 3 OR COUNT(last_name) = 4);
+
+
+
+
+
+--
 
 SELECT last_name,
 first_name,
