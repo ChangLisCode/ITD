@@ -22,7 +22,8 @@
 
 * ##### Dec. 19 2022
 >   DataBase **start**
-
+* ##### Jan. 10 2023
+>   DataBase **Mid Term Exam**
 
 >
 >
