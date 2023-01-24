@@ -88,9 +88,8 @@ FROM SETA
 LEFT JOIN SETB
 ON setA.A = setB.b
 
+-- Jan 19 --
 
-
-)
 
 
 

@@ -127,11 +127,13 @@ SELECT first_name, COUNT(*)
 FROM actor
 GROUP BY first_name
 HAVING (COUNT(first_name) = 3 OR COUNT(first_name) = 4)
+
 union
 SELECT last_name, COUNT(*)
 FROM actor
 GROUP BY last_name
 HAVING (COUNT(last_name) = 3 OR COUNT(last_name) = 4);
+
 
 
 
