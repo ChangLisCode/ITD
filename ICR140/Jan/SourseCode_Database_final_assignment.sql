@@ -60,7 +60,7 @@ INSERT INTO faculties_2 VALUES
 
 
 CREATE TABLE faculties(
-	program_id int,
+	program_id int PRIMARY KEY,
 	F1_Applied_Science varchar(300),
 	F2_Architecture varchar(300),
 	F3_Education varchar(300),
@@ -94,7 +94,7 @@ CREATE TABLE advertisement_budget(
 
 create table register(
 	register_id int PRIMARY KEY,
-	program_id int,
+	program_id int FOREIGN KEY REFERENCES faculties(program_id),
     program varchar(300),
     student_amount varchar(300),
     branch varchar(300)
@@ -112,9 +112,13 @@ GROUP BY program_id;
 
 -- P15: no student
 
--- Q8, Q9, Q10, Q11
+-- Q8, Q9, Q10
 -- n/a
 
+-- Q11
+SELECT * FROM register
+WHERE student_amount = 0
+ORDER BY branch ASC;
 
 -- 12
 SELECT branch, SUM(student_amount) 
