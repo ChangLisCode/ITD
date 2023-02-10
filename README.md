@@ -12,7 +12,6 @@
 * ##### Dec. 13 2022
 >   First day of Javascript **start**
 
-
 * ##### Dec.14 2022
 >   *[w3school.com](https://www.w3school.com)* html tutorial **done**
 
@@ -29,9 +28,11 @@
 >   DataBase **Final Term Exam**
 >
 * ##### Jan. 25 2023
->   C++ (cross-platform language) **Start**
+>   C (cross-platform language) **Start**
 >
->
+
+* ##### Feb. 09 2023
+>   Javascript **Done**
 >
 >
 >
