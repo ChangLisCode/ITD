@@ -294,8 +294,7 @@ int main() {
 //
 //    printf("please input the leter:\n");
 //    scanf("%c", & letter);
-    
-    
+  
 }
  */
 

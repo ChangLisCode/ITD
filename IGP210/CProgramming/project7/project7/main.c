@@ -3,8 +3,58 @@
 //  project7
 //
 //  Created by Chang on 2023-02-09.
-//Q65 - 2
 
+
+// the conclusion is that the value of a and b in version 1 did not change. but the value will change in version 1
+
+
+//Q66 - version 2
+/*
+#include <stdio.h>
+
+// Function declaration
+int functionA(int *a, int *b){
+    *a *= 10;
+    *b *= 20;
+  };
+
+int main() {
+  int a, b;
+  printf("Enter two integers: ");
+  scanf("%d%d", &a, &b);
+
+  functionA(&a, &b);
+  printf("The original values of a and b are: %d, %d\n", a, b);
+  printf("The multiplied values of a and b are: %d, %d\n", a * 10, b * 20);
+  return 0;
+}
+*/
+
+//Q66 - version 1
+
+
+#include <stdio.h>
+
+
+void functionA(int a, int b){
+    a *= 10;
+    b *= 20;
+  };
+
+int main() {
+  int a, b;
+  printf("Enter two integers: ");
+  scanf("%d%d", &a, &b);
+
+  functionA(a, b);
+
+  printf("The original values of a and b are: %d, %d\n", a, b);
+  printf("The multiplied values of a and b are: %d, %d\n", a * 10, b * 20);
+  return 0;
+}
+
+
+/*
 #include <stdio.h>
 
 int function1(int a, int b) {
@@ -43,7 +93,7 @@ int main(void) {
     return 0;
 }
 
-
+*/
 
 
 /*Q65
