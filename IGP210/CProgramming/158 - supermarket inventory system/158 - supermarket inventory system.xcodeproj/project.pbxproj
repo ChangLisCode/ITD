@@ -7,11 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0480FC1B29D7CFFE00AA247D /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 0480FC1A29D7CFFE00AA247D /* main.c */; };
+		04C94BA429DA5D20007B1D46 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 04C94BA329DA5D20007B1D46 /* main.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		0480FC1529D7CFFE00AA247D /* CopyFiles */ = {
+		04C94B9E29DA5D20007B1D46 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
@@ -23,12 +23,12 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		0480FC1729D7CFFE00AA247D /* 158-3 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "158-3"; sourceTree = BUILT_PRODUCTS_DIR; };
-		0480FC1A29D7CFFE00AA247D /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		04C94BA029DA5D20007B1D46 /* 158 - supermarket inventory system */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "158 - supermarket inventory system"; sourceTree = BUILT_PRODUCTS_DIR; };
+		04C94BA329DA5D20007B1D46 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		0480FC1429D7CFFE00AA247D /* Frameworks */ = {
+		04C94B9D29DA5D20007B1D46 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -38,65 +38,65 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0480FC0E29D7CFFE00AA247D = {
+		04C94B9729DA5D20007B1D46 = {
 			isa = PBXGroup;
 			children = (
-				0480FC1929D7CFFE00AA247D /* 158-3 */,
-				0480FC1829D7CFFE00AA247D /* Products */,
+				04C94BA229DA5D20007B1D46 /* 158 - supermarket inventory system */,
+				04C94BA129DA5D20007B1D46 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		0480FC1829D7CFFE00AA247D /* Products */ = {
+		04C94BA129DA5D20007B1D46 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				0480FC1729D7CFFE00AA247D /* 158-3 */,
+				04C94BA029DA5D20007B1D46 /* 158 - supermarket inventory system */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		0480FC1929D7CFFE00AA247D /* 158-3 */ = {
+		04C94BA229DA5D20007B1D46 /* 158 - supermarket inventory system */ = {
 			isa = PBXGroup;
 			children = (
-				0480FC1A29D7CFFE00AA247D /* main.c */,
+				04C94BA329DA5D20007B1D46 /* main.c */,
 			);
-			path = "158-3";
+			path = "158 - supermarket inventory system";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		0480FC1629D7CFFE00AA247D /* 158-3 */ = {
+		04C94B9F29DA5D20007B1D46 /* 158 - supermarket inventory system */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 0480FC1E29D7CFFE00AA247D /* Build configuration list for PBXNativeTarget "158-3" */;
+			buildConfigurationList = 04C94BA729DA5D20007B1D46 /* Build configuration list for PBXNativeTarget "158 - supermarket inventory system" */;
 			buildPhases = (
-				0480FC1329D7CFFE00AA247D /* Sources */,
-				0480FC1429D7CFFE00AA247D /* Frameworks */,
-				0480FC1529D7CFFE00AA247D /* CopyFiles */,
+				04C94B9C29DA5D20007B1D46 /* Sources */,
+				04C94B9D29DA5D20007B1D46 /* Frameworks */,
+				04C94B9E29DA5D20007B1D46 /* CopyFiles */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = "158-3";
-			productName = "158-3";
-			productReference = 0480FC1729D7CFFE00AA247D /* 158-3 */;
+			name = "158 - supermarket inventory system";
+			productName = "158 - supermarket inventory system";
+			productReference = 04C94BA029DA5D20007B1D46 /* 158 - supermarket inventory system */;
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		0480FC0F29D7CFFE00AA247D /* Project object */ = {
+		04C94B9829DA5D20007B1D46 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastUpgradeCheck = 1420;
 				TargetAttributes = {
-					0480FC1629D7CFFE00AA247D = {
+					04C94B9F29DA5D20007B1D46 = {
 						CreatedOnToolsVersion = 14.2;
 					};
 				};
 			};
-			buildConfigurationList = 0480FC1229D7CFFE00AA247D /* Build configuration list for PBXProject "158-3" */;
+			buildConfigurationList = 04C94B9B29DA5D20007B1D46 /* Build configuration list for PBXProject "158 - supermarket inventory system" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -104,29 +104,29 @@
 				en,
 				Base,
 			);
-			mainGroup = 0480FC0E29D7CFFE00AA247D;
-			productRefGroup = 0480FC1829D7CFFE00AA247D /* Products */;
+			mainGroup = 04C94B9729DA5D20007B1D46;
+			productRefGroup = 04C94BA129DA5D20007B1D46 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				0480FC1629D7CFFE00AA247D /* 158-3 */,
+				04C94B9F29DA5D20007B1D46 /* 158 - supermarket inventory system */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		0480FC1329D7CFFE00AA247D /* Sources */ = {
+		04C94B9C29DA5D20007B1D46 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0480FC1B29D7CFFE00AA247D /* main.c in Sources */,
+				04C94BA429DA5D20007B1D46 /* main.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		0480FC1C29D7CFFE00AA247D /* Debug */ = {
+		04C94BA529DA5D20007B1D46 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -184,7 +184,7 @@
 			};
 			name = Debug;
 		};
-		0480FC1D29D7CFFE00AA247D /* Release */ = {
+		04C94BA629DA5D20007B1D46 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -235,7 +235,7 @@
 			};
 			name = Release;
 		};
-		0480FC1F29D7CFFE00AA247D /* Debug */ = {
+		04C94BA829DA5D20007B1D46 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -243,7 +243,7 @@
 			};
 			name = Debug;
 		};
-		0480FC2029D7CFFE00AA247D /* Release */ = {
+		04C94BA929DA5D20007B1D46 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -254,25 +254,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		0480FC1229D7CFFE00AA247D /* Build configuration list for PBXProject "158-3" */ = {
+		04C94B9B29DA5D20007B1D46 /* Build configuration list for PBXProject "158 - supermarket inventory system" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				0480FC1C29D7CFFE00AA247D /* Debug */,
-				0480FC1D29D7CFFE00AA247D /* Release */,
+				04C94BA529DA5D20007B1D46 /* Debug */,
+				04C94BA629DA5D20007B1D46 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		0480FC1E29D7CFFE00AA247D /* Build configuration list for PBXNativeTarget "158-3" */ = {
+		04C94BA729DA5D20007B1D46 /* Build configuration list for PBXNativeTarget "158 - supermarket inventory system" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				0480FC1F29D7CFFE00AA247D /* Debug */,
-				0480FC2029D7CFFE00AA247D /* Release */,
+				04C94BA829DA5D20007B1D46 /* Debug */,
+				04C94BA929DA5D20007B1D46 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 0480FC0F29D7CFFE00AA247D /* Project object */;
+	rootObject = 04C94B9829DA5D20007B1D46 /* Project object */;
 }

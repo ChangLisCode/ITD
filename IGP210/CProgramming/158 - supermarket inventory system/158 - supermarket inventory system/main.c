@@ -1,5 +1,12 @@
 //
 //  main.c
+//  158 - supermarket inventory system
+//
+//  Created by Chang on 2023-04-02.
+//
+
+//
+//  main.c
 //  158
 //
 //  Created by Chang on 2023-03-22.
@@ -110,7 +117,7 @@ void import_information(int new_product, int date[]){
         scanf("%s", products[i]->currency);
         
 //      calculate barcode
-        barcode_generate(products[i]->name, products[i]->category, products[i]->purchased_date[0], *products);        
+        barcode_generate(products[i]->name, products[i]->category, products[i]->purchased_date[0], *products);
     }
     
     //    show all the product list
