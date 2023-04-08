@@ -11,6 +11,7 @@
 //
 //  Created by Chang on 2023-03-22.
 //  Project: an application for grocery stores and their inventories
+//  update the code based on comments from teacher
 
 #include <stdio.h>
 #include <string.h>
@@ -38,9 +39,10 @@ struct Product {
 };
 
 // function define
-void inventory_define(char *string);
+void inventory_define(int date);
 void import_information(int new_product, int date[]);
-char barcode_generate(char *name, char *group, int purchased_date, struct Product* products);
+char barcode_generate(char *name, char *group, int purchased_date);
+char shopping_receipt(int* date);
 
 char* encryption_method_1(char *string);
 char encryption_method_2(char* string);
@@ -59,8 +61,16 @@ int main(void) {
     int start_question, new_product;
     int* date = (int*)malloc(3 * sizeof(int));
     
-    printf("Hi, How are you today!\nPlease input the date of today by the format of (yyyy-mm-dd). Thanks.\n");
-    scanf("%d%d%d", &date[0], &date[1], &date[2]);
+    date[0] = 2023;
+    date[1] = 04;
+    date[2] = 05;
+    
+    
+    inventory_define(*date);
+    
+    
+//    printf("Hi, How are you today!\nPlease input the date of today by the format of (yyyy-mm-dd). Thanks.\n");
+//    scanf("%d%d%d", &date[0], &date[1], &date[2]);
     
     printf("\nWould you like to import any item to your store?\nYes, please input[1]. \nNo, please input[0]\n[1]\n[0]\n");
     scanf("%d", &start_question);
@@ -70,16 +80,233 @@ int main(void) {
         scanf("%d", &new_product);
         import_information(new_product, date);
     }
+    else{
+        shopping_receipt(date);
+    }
     free(date);
     printf("\n\n\n");
     return 0;
+}
+
+void inventory_define(int date){
+        
+    struct Product products1 =
+    {
+        .name = "beef", .category = 'A', .manufacturer = "aaa", .currency = '$', .purchased_price = 4.55, .sale_price = 9.99, .final_price = 0, .quantity = 100,
+        .purchased_date= {2023, 02, 20}, .expiry_date = {2023, 04, 15}, .barcode = barcode_generate(products1.name, products1.category, *products1.purchased_date)
+    };
+
+    struct Product products2 =
+    {
+        .name = "beef", .category = 'A', .manufacturer = "aaa", .currency = '$', .purchased_price = 4.55, .sale_price = 9.99, .final_price = 0, .quantity = 100,
+        .purchased_date= {2023, 02, 20}, .expiry_date = {2023, 04, 15}, .barcode = barcode_generate(products1.name, products1.category, *products1.purchased_date)
+    };
+    
+    struct Product products3 =
+    {
+        .name = "beef", .category = 'A', .manufacturer = "aaa", .currency = '$', .purchased_price = 4.55, .sale_price = 9.99, .final_price = 0, .quantity = 100,
+        .purchased_date= {2023, 02, 20}, .expiry_date = {2023, 04, 15}, .barcode = barcode_generate(products1.name, products1.category, *products1.purchased_date)
+    };
+
+    struct Product products4 =
+    {
+        .name = "beef", .category = 'A', .manufacturer = "aaa", .currency = '$', .purchased_price = 4.55, .sale_price = 9.99, .final_price = 0, .quantity = 100,
+        .purchased_date= {2023, 02, 20}, .expiry_date = {2023, 04, 15}, .barcode = barcode_generate(products1.name, products1.category, *products1.purchased_date)
+    };
+
+    struct Product products5 =
+    {
+        .name = "beef", .category = 'A', .manufacturer = "aaa", .currency = '$', .purchased_price = 4.55, .sale_price = 9.99, .final_price = 0, .quantity = 100,
+        .purchased_date= {2023, 02, 20}, .expiry_date = {2023, 04, 15}, .barcode = barcode_generate(products1.name, products1.category, *products1.purchased_date)
+    };
+
+    struct Product products6 =
+    {
+        .name = "beef", .category = 'A', .manufacturer = "aaa", .currency = '$', .purchased_price = 4.55, .sale_price = 9.99, .final_price = 0, .quantity = 100,
+        .purchased_date= {2023, 02, 20}, .expiry_date = {2023, 04, 15}, .barcode = barcode_generate(products1.name, products1.category, *products1.purchased_date)
+    };
+
+    struct Product products7 =
+    {
+        .name = "beef", .category = 'A', .manufacturer = "aaa", .currency = '$', .purchased_price = 4.55, .sale_price = 9.99, .final_price = 0, .quantity = 100,
+        .purchased_date= {2023, 02, 20}, .expiry_date = {2023, 04, 15}, .barcode = barcode_generate(products1.name, products1.category, *products1.purchased_date)
+    };
+
+    struct Product products8 =
+    {
+        .name = "beef", .category = 'A', .manufacturer = "aaa", .currency = '$', .purchased_price = 4.55, .sale_price = 9.99, .final_price = 0, .quantity = 100,
+        .purchased_date= {2023, 02, 20}, .expiry_date = {2023, 04, 15}, .barcode = barcode_generate(products1.name, products1.category, *products1.purchased_date)
+    };
+
+    struct Product products9 =
+    {
+        .name = "beef", .category = 'A', .manufacturer = "aaa", .currency = '$', .purchased_price = 4.55, .sale_price = 9.99, .final_price = 0, .quantity = 100,
+        .purchased_date= {2023, 02, 20}, .expiry_date = {2023, 04, 15}, .barcode = barcode_generate(products1.name, products1.category, *products1.purchased_date)
+    };
+
+    struct Product products10 =
+    {
+        .name = "beef", .category = 'A', .manufacturer = "aaa", .currency = '$', .purchased_price = 4.55, .sale_price = 9.99, .final_price = 0, .quantity = 100,
+        .purchased_date= {2023, 02, 20}, .expiry_date = {2023, 04, 15}, .barcode = barcode_generate(products1.name, products1.category, *products1.purchased_date)
+    };
+
+    struct Product products11 =
+    {
+        .name = "beef", .category = 'A', .manufacturer = "aaa", .currency = '$', .purchased_price = 4.55, .sale_price = 9.99, .final_price = 0, .quantity = 100,
+        .purchased_date= {2023, 02, 20}, .expiry_date = {2023, 04, 15}, .barcode = barcode_generate(products1.name, products1.category, *products1.purchased_date)
+    };
+
+    struct Product products12 =
+    {
+        .name = "beef", .category = 'A', .manufacturer = "aaa", .currency = '$', .purchased_price = 4.55, .sale_price = 9.99, .final_price = 0, .quantity = 100,
+        .purchased_date= {2023, 02, 20}, .expiry_date = {2023, 04, 15}, .barcode = barcode_generate(products1.name, products1.category, *products1.purchased_date)
+    };
+
+    struct Product products13 =
+    {
+        .name = "beef", .category = 'A', .manufacturer = "aaa", .currency = '$', .purchased_price = 4.55, .sale_price = 9.99, .final_price = 0, .quantity = 100,
+        .purchased_date= {2023, 02, 20}, .expiry_date = {2023, 04, 15}, .barcode = barcode_generate(products1.name, products1.category, *products1.purchased_date)
+    };
+
+    struct Product products15 =
+    {
+        .name = "beef", .category = 'A', .manufacturer = "aaa", .currency = '$', .purchased_price = 4.55, .sale_price = 9.99, .final_price = 0, .quantity = 100,
+        .purchased_date= {2023, 02, 20}, .expiry_date = {2023, 04, 15}, .barcode = barcode_generate(products1.name, products1.category, *products1.purchased_date)
+    };
+
+    struct Product products16 =
+    {
+        .name = "beef", .category = 'A', .manufacturer = "aaa", .currency = '$', .purchased_price = 4.55, .sale_price = 9.99, .final_price = 0, .quantity = 100,
+        .purchased_date= {2023, 02, 20}, .expiry_date = {2023, 04, 15}, .barcode = barcode_generate(products1.name, products1.category, *products1.purchased_date)
+    };
+
+    struct Product products17 =
+    {
+        .name = "beef", .category = 'A', .manufacturer = "aaa", .currency = '$', .purchased_price = 4.55, .sale_price = 9.99, .final_price = 0, .quantity = 100,
+        .purchased_date= {2023, 02, 20}, .expiry_date = {2023, 04, 15}, .barcode = barcode_generate(products1.name, products1.category, *products1.purchased_date)
+    };
+
+    struct Product products18 =
+    {
+        .name = "beef", .category = 'A', .manufacturer = "aaa", .currency = '$', .purchased_price = 4.55, .sale_price = 9.99, .final_price = 0, .quantity = 100,
+        .purchased_date= {2023, 02, 20}, .expiry_date = {2023, 04, 15}, .barcode = barcode_generate(products1.name, products1.category, *products1.purchased_date)
+    };
+
+    struct Product products19 =
+    {
+        .name = "beef", .category = 'A', .manufacturer = "aaa", .currency = '$', .purchased_price = 4.55, .sale_price = 9.99, .final_price = 0, .quantity = 100,
+        .purchased_date= {2023, 02, 20}, .expiry_date = {2023, 04, 15}, .barcode = barcode_generate(products1.name, products1.category, *products1.purchased_date)
+    };
+
+    struct Product products20 =
+    {
+        .name = "beef", .category = 'A', .manufacturer = "aaa", .currency = '$', .purchased_price = 4.55, .sale_price = 9.99, .final_price = 0, .quantity = 100,
+        .purchased_date= {2023, 02, 20}, .expiry_date = {2023, 04, 15}, .barcode = barcode_generate(products1.name, products1.category, *products1.purchased_date)
+    };
+
+    struct Product products21 =
+    {
+        .name = "beef", .category = 'A', .manufacturer = "aaa", .currency = '$', .purchased_price = 4.55, .sale_price = 9.99, .final_price = 0, .quantity = 100,
+        .purchased_date= {2023, 02, 20}, .expiry_date = {2023, 04, 15}, .barcode = barcode_generate(products1.name, products1.category, *products1.purchased_date)
+    };
+
+    struct Product products22 =
+    {
+        .name = "beef", .category = 'A', .manufacturer = "aaa", .currency = '$', .purchased_price = 4.55, .sale_price = 9.99, .final_price = 0, .quantity = 100,
+        .purchased_date= {2023, 02, 20}, .expiry_date = {2023, 04, 15}, .barcode = barcode_generate(products1.name, products1.category, *products1.purchased_date)
+    };
+
+    struct Product products23 =
+    {
+        .name = "beef", .category = 'A', .manufacturer = "aaa", .currency = '$', .purchased_price = 4.55, .sale_price = 9.99, .final_price = 0, .quantity = 100,
+        .purchased_date= {2023, 02, 20}, .expiry_date = {2023, 04, 15}, .barcode = barcode_generate(products1.name, products1.category, *products1.purchased_date)
+    };
+    
+    struct Product products24 =
+    {
+        .name = "beef", .category = 'A', .manufacturer = "aaa", .currency = '$', .purchased_price = 4.55, .sale_price = 9.99, .final_price = 0, .quantity = 100,
+        .purchased_date= {2023, 02, 20}, .expiry_date = {2023, 04, 15}, .barcode = barcode_generate(products1.name, products1.category, *products1.purchased_date)
+    };
+
+    struct Product products25 =
+    {
+        .name = "beef", .category = 'A', .manufacturer = "aaa", .currency = '$', .purchased_price = 4.55, .sale_price = 9.99, .final_price = 0, .quantity = 100,
+        .purchased_date= {2023, 02, 20}, .expiry_date = {2023, 04, 15}, .barcode = barcode_generate(products1.name, products1.category, *products1.purchased_date)
+    };
+
+    struct Product products26 =
+    {
+        .name = "beef", .category = 'A', .manufacturer = "aaa", .currency = '$', .purchased_price = 4.55, .sale_price = 9.99, .final_price = 0, .quantity = 100,
+        .purchased_date= {2023, 02, 20}, .expiry_date = {2023, 04, 15}, .barcode = barcode_generate(products1.name, products1.category, *products1.purchased_date)
+    };
+
+    struct Product products27 =
+    {
+        .name = "beef", .category = 'A', .manufacturer = "aaa", .currency = '$', .purchased_price = 4.55, .sale_price = 9.99, .final_price = 0, .quantity = 100,
+        .purchased_date= {2023, 02, 20}, .expiry_date = {2023, 04, 15}, .barcode = barcode_generate(products1.name, products1.category, *products1.purchased_date)
+    };
+
+    struct Product products28 =
+    {
+        .name = "beef", .category = 'A', .manufacturer = "aaa", .currency = '$', .purchased_price = 4.55, .sale_price = 9.99, .final_price = 0, .quantity = 100,
+        .purchased_date= {2023, 02, 20}, .expiry_date = {2023, 04, 15}, .barcode = barcode_generate(products1.name, products1.category, *products1.purchased_date)
+    };
+
+    struct Product products29 =
+    {
+        .name = "beef", .category = 'A', .manufacturer = "aaa", .currency = '$', .purchased_price = 4.55, .sale_price = 9.99, .final_price = 0, .quantity = 100,
+        .purchased_date= {2023, 02, 20}, .expiry_date = {2023, 04, 15}, .barcode = barcode_generate(products1.name, products1.category, *products1.purchased_date)
+    };
+
+    struct Product products30 =
+    {
+        .name = "beef", .category = 'A', .manufacturer = "aaa", .currency = '$', .purchased_price = 4.55, .sale_price = 9.99, .final_price = 0, .quantity = 100,
+        .purchased_date= {2023, 02, 20}, .expiry_date = {2023, 04, 15}, .barcode = barcode_generate(products1.name, products1.category, *products1.purchased_date)
+    };
+    
+    struct Product products31 =
+    {
+        .name = "beef", .category = 'A', .manufacturer = "aaa", .currency = '$', .purchased_price = 4.55, .sale_price = 9.99, .final_price = 0, .quantity = 100,
+        .purchased_date= {2023, 02, 20}, .expiry_date = {2023, 04, 15}, .barcode = barcode_generate(products1.name, products1.category, *products1.purchased_date)
+    };
+
+    struct Product products32 =
+    {
+        .name = "beef", .category = 'A', .manufacturer = "aaa", .currency = '$', .purchased_price = 4.55, .sale_price = 9.99, .final_price = 0, .quantity = 100,
+        .purchased_date= {2023, 02, 20}, .expiry_date = {2023, 04, 15}, .barcode = barcode_generate(products1.name, products1.category, *products1.purchased_date)
+    };
+
+    struct Product products33 =
+    {
+        .name = "beef", .category = 'A', .manufacturer = "aaa", .currency = '$', .purchased_price = 4.55, .sale_price = 9.99, .final_price = 0, .quantity = 100,
+        .purchased_date= {2023, 02, 20}, .expiry_date = {2023, 04, 15}, .barcode = barcode_generate(products1.name, products1.category, *products1.purchased_date)
+    };
+
+    struct Product products34 =
+    {
+        .name = "beef", .category = 'A', .manufacturer = "aaa", .currency = '$', .purchased_price = 4.55, .sale_price = 9.99, .final_price = 0, .quantity = 100,
+        .purchased_date= {2023, 02, 20}, .expiry_date = {2023, 04, 15}, .barcode = barcode_generate(products1.name, products1.category, *products1.purchased_date)
+    };
+
+    struct Product products35 =
+    {
+        .name = "beef", .category = 'A', .manufacturer = "aaa", .currency = '$', .purchased_price = 4.55, .sale_price = 9.99, .final_price = 0, .quantity = 100,
+        .purchased_date= {2023, 02, 20}, .expiry_date = {2023, 04, 15}, .barcode = barcode_generate(products1.name, products1.category, *products1.purchased_date)
+    };
+
+    struct Product products36 =
+    {
+        .name = "beef", .category = 'A', .manufacturer = "aaa", .currency = '$', .purchased_price = 4.55, .sale_price = 9.99, .final_price = 0, .quantity = 100,
+        .purchased_date= {2023, 02, 20}, .expiry_date = {2023, 04, 15}, .barcode = barcode_generate(products1.name, products1.category, *products1.purchased_date)
+    };
+
 }
 
 void import_information(int new_product, int date[]){
     
     struct Product *products[new_product];
     
-    for (int i = 0; i < new_product; i++) {
+    for (int i = 37; i < new_product + 37; i++) {
         
         products[i] = (struct Product*) malloc(sizeof(struct Product));
         
@@ -116,21 +343,21 @@ void import_information(int new_product, int date[]){
         printf("\nEnter the currency of the country for product %d: \n", i+1);
         scanf("%s", products[i]->currency);
         
-//      calculate barcode
+        //      calculate barcode
         barcode_generate(products[i]->name, products[i]->category, products[i]->purchased_date[0], *products);
     }
     
     //    show all the product list
     printf("\nProduct Information:\n");
     
-    for (int i = 0; i < new_product; i++) {
+    for (int i = 37; i < new_product + 37; i++) {
         printf("Product name: %s\n, Category: %s\n, Manufacturer: %s\n, Purchased Price: %.2f\n, Currency: %s\n, Sale Price: %.2f\n, Quantity: %d\n, Purchased Date: %d%d%d\n, Production Date: %d%d%d\n, Expiry Date: %d%d%d\n, Barcode: %s\n\n",
                products[i]->name, products[i]->category,products[i]->manufacturer,  products[i]->purchased_price,  products[i]->currency,  products[i]->sale_price, products[i]->quantity,
                products[i]->purchased_date[0], products[i]->purchased_date[1], products[i]->purchased_date[2], products[i]->production_date[0], products[i]->production_date[1], products[i]->production_date[2],  products[i]->expiry_date[0],products[i]->expiry_date[1],products[i]->expiry_date[2],
                products[i]->barcode);}
     
-// shopping part should be single function, when basic information is input firstly.
-//    in this method, it need be integrated to import function, due to based on memory management method
+    // shopping part should be single function, when basic information is input firstly.
+    //    in this method, it need be integrated to import function, due to based on memory management method
     
     int choice;
     printf("new product information has been import successfully. Will you leave or go to shoping?\n[1] I want to leave\n[2] I will have shopping\n\n");
@@ -140,9 +367,12 @@ void import_information(int new_product, int date[]){
         printf("Thanks for your job, have a nice day!\n\n");
     }
     else{
-        
-        
-//      go to shopping part
+        char purchased_receipt(struct Product* products);
+    }
+}
+
+//      go to shopping
+char purchased_receipt(struct Product* products){
         int i, j, amount;
         float balance = 0, balance_original = 0, save_money = 0;
         
@@ -210,7 +440,7 @@ void import_information(int new_product, int date[]){
         }
 //        free(shopping_list);
         }
-//  free the memeory of products
+//  free the memeory of products after shopping, it can't be free in function import_formation due to data will be cleared.
         for (int i = 0; i < new_product; i++) {
         free(products[i]);
         }
