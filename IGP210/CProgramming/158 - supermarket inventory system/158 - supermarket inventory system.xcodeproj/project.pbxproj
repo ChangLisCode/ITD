@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		04B6905A29F0554900B29AA9 /* function1.c in Sources */ = {isa = PBXBuildFile; fileRef = 04B6905929F0554900B29AA9 /* function1.c */; };
+		04B6905D29F055AA00B29AA9 /* function2.c in Sources */ = {isa = PBXBuildFile; fileRef = 04B6905C29F055AA00B29AA9 /* function2.c */; };
 		04C94BA429DA5D20007B1D46 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 04C94BA329DA5D20007B1D46 /* main.c */; };
 /* End PBXBuildFile section */
 
@@ -23,6 +25,9 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		04B6905829F0554900B29AA9 /* function1.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = function1.h; sourceTree = "<group>"; };
+		04B6905929F0554900B29AA9 /* function1.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = function1.c; sourceTree = "<group>"; };
+		04B6905C29F055AA00B29AA9 /* function2.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = function2.c; sourceTree = "<group>"; };
 		04C94BA029DA5D20007B1D46 /* 158 - supermarket inventory system */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "158 - supermarket inventory system"; sourceTree = BUILT_PRODUCTS_DIR; };
 		04C94BA329DA5D20007B1D46 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -41,6 +46,7 @@
 		04C94B9729DA5D20007B1D46 = {
 			isa = PBXGroup;
 			children = (
+				04B6905829F0554900B29AA9 /* function1.h */,
 				04C94BA229DA5D20007B1D46 /* 158 - supermarket inventory system */,
 				04C94BA129DA5D20007B1D46 /* Products */,
 			);
@@ -58,6 +64,8 @@
 			isa = PBXGroup;
 			children = (
 				04C94BA329DA5D20007B1D46 /* main.c */,
+				04B6905929F0554900B29AA9 /* function1.c */,
+				04B6905C29F055AA00B29AA9 /* function2.c */,
 			);
 			path = "158 - supermarket inventory system";
 			sourceTree = "<group>";
@@ -120,6 +128,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				04C94BA429DA5D20007B1D46 /* main.c in Sources */,
+				04B6905D29F055AA00B29AA9 /* function2.c in Sources */,
+				04B6905A29F0554900B29AA9 /* function1.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

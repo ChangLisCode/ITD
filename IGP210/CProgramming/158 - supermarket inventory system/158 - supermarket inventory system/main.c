@@ -40,7 +40,7 @@ struct Product {
 // function define
 void inventory_define(char *string);
 void import_information(int new_product, int date[]);
-char barcode_generate(char *name, char *group, int purchased_date, struct Product* products);
+char barcode_generate(struct Product* products);
 
 char* encryption_method_1(char *string);
 char encryption_method_2(char* string);
@@ -79,6 +79,8 @@ void import_information(int new_product, int date[]){
     
     struct Product *products[new_product];
     
+//    struct Product *products = (struct Product*) malloc(sizeof(struct Product) * new_product);
+    
     for (int i = 0; i < new_product; i++) {
         
         products[i] = (struct Product*) malloc(sizeof(struct Product));
@@ -86,7 +88,7 @@ void import_information(int new_product, int date[]){
         printf("\nEnter the name of product %d: \n", i+1);
         scanf("%s", products[i]->name);
         
-        strcpy(products[i]->name_encryption, encryption_method_1(products[i]->name));
+        strncpy(products[i]->name_encryption, encryption_method_1(products[i]->name),sizeof(products[i]->name_encryption));
         
         printf("\nEnter the category of product %d: ", i+1);
         printf("\nPlease choose category type:\nGroup [A]: Meat\nGroup [B]: Deli\nGroup [C]: Pharmacy\nGroup [D]: Seafood\nGroup [E]: Beverage\nGroup [F]: Canned\nGroup [G]: Jarred\nGroup [H]: Dry Food\nGroup [I]: Dairy\nGroup [J]: Bakery\nGroup [K]: Personal Care\nGroup [L]: Paper Goods\n");
@@ -117,7 +119,7 @@ void import_information(int new_product, int date[]){
         scanf("%s", products[i]->currency);
         
 //      calculate barcode
-        barcode_generate(products[i]->name, products[i]->category, products[i]->purchased_date[0], *products);
+        barcode_generate(*products);
     }
     
     //    show all the product list
@@ -219,11 +221,11 @@ void import_information(int new_product, int date[]){
     
 //  encryption part
 // use name / group / purchased date to generate the barcode, the barcode is 16 digits
-char barcode_generate(char *name, char *group, int purchased_date, struct Product* products){
+char barcode_generate(struct Product* products){
     
-    int temp1 = *encryption_method_1(name);
-    int temp2 = encryption_method_2(group);
-    int temp3 = encryption_method_5(&purchased_date);
+    int temp1 = *encryption_method_1(products->name);
+    int temp2 = encryption_method_2(products->category);
+    int temp3 = encryption_method_5(products->purchased_date);
     
     char str1[10];
     char str2[10];
