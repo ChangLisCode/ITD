@@ -1,0 +1,15 @@
+/Users/chang/Desktop/CSharp/project8/bin/Debug/net7.0/project8
+/Users/chang/Desktop/CSharp/project8/bin/Debug/net7.0/project8.deps.json
+/Users/chang/Desktop/CSharp/project8/bin/Debug/net7.0/project8.runtimeconfig.json
+/Users/chang/Desktop/CSharp/project8/bin/Debug/net7.0/project8.dll
+/Users/chang/Desktop/CSharp/project8/bin/Debug/net7.0/project8.pdb
+/Users/chang/Desktop/CSharp/project8/obj/Debug/net7.0/project8.csproj.AssemblyReference.cache
+/Users/chang/Desktop/CSharp/project8/obj/Debug/net7.0/project8.GeneratedMSBuildEditorConfig.editorconfig
+/Users/chang/Desktop/CSharp/project8/obj/Debug/net7.0/project8.AssemblyInfoInputs.cache
+/Users/chang/Desktop/CSharp/project8/obj/Debug/net7.0/project8.AssemblyInfo.cs
+/Users/chang/Desktop/CSharp/project8/obj/Debug/net7.0/project8.csproj.CoreCompileInputs.cache
+/Users/chang/Desktop/CSharp/project8/obj/Debug/net7.0/project8.dll
+/Users/chang/Desktop/CSharp/project8/obj/Debug/net7.0/refint/project8.dll
+/Users/chang/Desktop/CSharp/project8/obj/Debug/net7.0/project8.pdb
+/Users/chang/Desktop/CSharp/project8/obj/Debug/net7.0/project8.genruntimeconfig.cache
+/Users/chang/Desktop/CSharp/project8/obj/Debug/net7.0/ref/project8.dll

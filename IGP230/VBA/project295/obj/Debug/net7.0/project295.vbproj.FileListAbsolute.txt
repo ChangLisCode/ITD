@@ -1,0 +1,15 @@
+/Users/chang/Documents/ITD/Code/IGP230/VBA/project295/bin/Debug/net7.0/project295
+/Users/chang/Documents/ITD/Code/IGP230/VBA/project295/bin/Debug/net7.0/project295.deps.json
+/Users/chang/Documents/ITD/Code/IGP230/VBA/project295/bin/Debug/net7.0/project295.runtimeconfig.json
+/Users/chang/Documents/ITD/Code/IGP230/VBA/project295/bin/Debug/net7.0/project295.dll
+/Users/chang/Documents/ITD/Code/IGP230/VBA/project295/bin/Debug/net7.0/project295.pdb
+/Users/chang/Documents/ITD/Code/IGP230/VBA/project295/obj/Debug/net7.0/project295.vbproj.AssemblyReference.cache
+/Users/chang/Documents/ITD/Code/IGP230/VBA/project295/obj/Debug/net7.0/project295.GeneratedMSBuildEditorConfig.editorconfig
+/Users/chang/Documents/ITD/Code/IGP230/VBA/project295/obj/Debug/net7.0/project295.AssemblyInfoInputs.cache
+/Users/chang/Documents/ITD/Code/IGP230/VBA/project295/obj/Debug/net7.0/project295.AssemblyInfo.vb
+/Users/chang/Documents/ITD/Code/IGP230/VBA/project295/obj/Debug/net7.0/project295.vbproj.CoreCompileInputs.cache
+/Users/chang/Documents/ITD/Code/IGP230/VBA/project295/obj/Debug/net7.0/project295.dll
+/Users/chang/Documents/ITD/Code/IGP230/VBA/project295/obj/Debug/net7.0/refint/project295.dll
+/Users/chang/Documents/ITD/Code/IGP230/VBA/project295/obj/Debug/net7.0/project295.pdb
+/Users/chang/Documents/ITD/Code/IGP230/VBA/project295/obj/Debug/net7.0/project295.genruntimeconfig.cache
+/Users/chang/Documents/ITD/Code/IGP230/VBA/project295/obj/Debug/net7.0/ref/project295.dll

@@ -1,0 +1,16 @@
+/Users/chang/Desktop/CSharp/project4/bin/Debug/net7.0/project4
+/Users/chang/Desktop/CSharp/project4/bin/Debug/net7.0/project4.deps.json
+/Users/chang/Desktop/CSharp/project4/bin/Debug/net7.0/project4.runtimeconfig.json
+/Users/chang/Desktop/CSharp/project4/bin/Debug/net7.0/project4.dll
+/Users/chang/Desktop/CSharp/project4/bin/Debug/net7.0/project4.pdb
+/Users/chang/Desktop/CSharp/project4/obj/Debug/net7.0/project4.csproj.AssemblyReference.cache
+/Users/chang/Desktop/CSharp/project4/obj/Debug/net7.0/project4.GeneratedMSBuildEditorConfig.editorconfig
+/Users/chang/Desktop/CSharp/project4/obj/Debug/net7.0/project4.AssemblyInfoInputs.cache
+/Users/chang/Desktop/CSharp/project4/obj/Debug/net7.0/project4.AssemblyInfo.cs
+/Users/chang/Desktop/CSharp/project4/obj/Debug/net7.0/project4.csproj.CoreCompileInputs.cache
+/Users/chang/Desktop/CSharp/project4/obj/Debug/net7.0/project4.dll
+/Users/chang/Desktop/CSharp/project4/obj/Debug/net7.0/refint/project4.dll
+/Users/chang/Desktop/CSharp/project4/obj/Debug/net7.0/project4.pdb
+/Users/chang/Desktop/CSharp/project4/obj/Debug/net7.0/project4.genruntimeconfig.cache
+/Users/chang/Desktop/CSharp/project4/obj/Debug/net7.0/ref/project4.dll
+/Users/chang/Desktop/CSharp/project4/bin/Debug/net7.0/CommentsDocs.xml

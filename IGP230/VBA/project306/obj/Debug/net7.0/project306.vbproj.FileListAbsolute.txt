@@ -1,0 +1,5 @@
+/Users/chang/Documents/ITD/Code/IGP230/VBA/project306/obj/Debug/net7.0/project306.vbproj.AssemblyReference.cache
+/Users/chang/Documents/ITD/Code/IGP230/VBA/project306/obj/Debug/net7.0/project306.GeneratedMSBuildEditorConfig.editorconfig
+/Users/chang/Documents/ITD/Code/IGP230/VBA/project306/obj/Debug/net7.0/project306.AssemblyInfoInputs.cache
+/Users/chang/Documents/ITD/Code/IGP230/VBA/project306/obj/Debug/net7.0/project306.AssemblyInfo.vb
+/Users/chang/Documents/ITD/Code/IGP230/VBA/project306/obj/Debug/net7.0/project306.vbproj.CoreCompileInputs.cache

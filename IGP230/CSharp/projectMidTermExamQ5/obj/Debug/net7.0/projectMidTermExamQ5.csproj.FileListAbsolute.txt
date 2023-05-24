@@ -1,0 +1,15 @@
+/Users/chang/Documents/ITD/Code/IGP230/CSharp/projectMidTermExamQ5/bin/Debug/net7.0/projectMidTermExamQ5
+/Users/chang/Documents/ITD/Code/IGP230/CSharp/projectMidTermExamQ5/bin/Debug/net7.0/projectMidTermExamQ5.deps.json
+/Users/chang/Documents/ITD/Code/IGP230/CSharp/projectMidTermExamQ5/bin/Debug/net7.0/projectMidTermExamQ5.runtimeconfig.json
+/Users/chang/Documents/ITD/Code/IGP230/CSharp/projectMidTermExamQ5/bin/Debug/net7.0/projectMidTermExamQ5.dll
+/Users/chang/Documents/ITD/Code/IGP230/CSharp/projectMidTermExamQ5/bin/Debug/net7.0/projectMidTermExamQ5.pdb
+/Users/chang/Documents/ITD/Code/IGP230/CSharp/projectMidTermExamQ5/obj/Debug/net7.0/projectMidTermExamQ5.csproj.AssemblyReference.cache
+/Users/chang/Documents/ITD/Code/IGP230/CSharp/projectMidTermExamQ5/obj/Debug/net7.0/projectMidTermExamQ5.GeneratedMSBuildEditorConfig.editorconfig
+/Users/chang/Documents/ITD/Code/IGP230/CSharp/projectMidTermExamQ5/obj/Debug/net7.0/projectMidTermExamQ5.AssemblyInfoInputs.cache
+/Users/chang/Documents/ITD/Code/IGP230/CSharp/projectMidTermExamQ5/obj/Debug/net7.0/projectMidTermExamQ5.AssemblyInfo.cs
+/Users/chang/Documents/ITD/Code/IGP230/CSharp/projectMidTermExamQ5/obj/Debug/net7.0/projectMidTermExamQ5.csproj.CoreCompileInputs.cache
+/Users/chang/Documents/ITD/Code/IGP230/CSharp/projectMidTermExamQ5/obj/Debug/net7.0/projectMidTermExamQ5.dll
+/Users/chang/Documents/ITD/Code/IGP230/CSharp/projectMidTermExamQ5/obj/Debug/net7.0/refint/projectMidTermExamQ5.dll
+/Users/chang/Documents/ITD/Code/IGP230/CSharp/projectMidTermExamQ5/obj/Debug/net7.0/projectMidTermExamQ5.pdb
+/Users/chang/Documents/ITD/Code/IGP230/CSharp/projectMidTermExamQ5/obj/Debug/net7.0/projectMidTermExamQ5.genruntimeconfig.cache
+/Users/chang/Documents/ITD/Code/IGP230/CSharp/projectMidTermExamQ5/obj/Debug/net7.0/ref/projectMidTermExamQ5.dll

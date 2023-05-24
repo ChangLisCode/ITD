@@ -1,0 +1,15 @@
+/Users/chang/Documents/ITD/Code/IGP230/VBA/project296/bin/Debug/net7.0/project296
+/Users/chang/Documents/ITD/Code/IGP230/VBA/project296/bin/Debug/net7.0/project296.deps.json
+/Users/chang/Documents/ITD/Code/IGP230/VBA/project296/bin/Debug/net7.0/project296.runtimeconfig.json
+/Users/chang/Documents/ITD/Code/IGP230/VBA/project296/bin/Debug/net7.0/project296.dll
+/Users/chang/Documents/ITD/Code/IGP230/VBA/project296/bin/Debug/net7.0/project296.pdb
+/Users/chang/Documents/ITD/Code/IGP230/VBA/project296/obj/Debug/net7.0/project296.vbproj.AssemblyReference.cache
+/Users/chang/Documents/ITD/Code/IGP230/VBA/project296/obj/Debug/net7.0/project296.GeneratedMSBuildEditorConfig.editorconfig
+/Users/chang/Documents/ITD/Code/IGP230/VBA/project296/obj/Debug/net7.0/project296.AssemblyInfoInputs.cache
+/Users/chang/Documents/ITD/Code/IGP230/VBA/project296/obj/Debug/net7.0/project296.AssemblyInfo.vb
+/Users/chang/Documents/ITD/Code/IGP230/VBA/project296/obj/Debug/net7.0/project296.vbproj.CoreCompileInputs.cache
+/Users/chang/Documents/ITD/Code/IGP230/VBA/project296/obj/Debug/net7.0/project296.dll
+/Users/chang/Documents/ITD/Code/IGP230/VBA/project296/obj/Debug/net7.0/refint/project296.dll
+/Users/chang/Documents/ITD/Code/IGP230/VBA/project296/obj/Debug/net7.0/project296.pdb
+/Users/chang/Documents/ITD/Code/IGP230/VBA/project296/obj/Debug/net7.0/project296.genruntimeconfig.cache
+/Users/chang/Documents/ITD/Code/IGP230/VBA/project296/obj/Debug/net7.0/ref/project296.dll

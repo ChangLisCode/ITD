@@ -1,0 +1,15 @@
+/Users/chang/Documents/ITD/Code/IGP230/CSharp/projectTest/bin/Debug/net7.0/projectTest
+/Users/chang/Documents/ITD/Code/IGP230/CSharp/projectTest/bin/Debug/net7.0/projectTest.deps.json
+/Users/chang/Documents/ITD/Code/IGP230/CSharp/projectTest/bin/Debug/net7.0/projectTest.runtimeconfig.json
+/Users/chang/Documents/ITD/Code/IGP230/CSharp/projectTest/bin/Debug/net7.0/projectTest.dll
+/Users/chang/Documents/ITD/Code/IGP230/CSharp/projectTest/bin/Debug/net7.0/projectTest.pdb
+/Users/chang/Documents/ITD/Code/IGP230/CSharp/projectTest/obj/Debug/net7.0/projectTest.csproj.AssemblyReference.cache
+/Users/chang/Documents/ITD/Code/IGP230/CSharp/projectTest/obj/Debug/net7.0/projectTest.GeneratedMSBuildEditorConfig.editorconfig
+/Users/chang/Documents/ITD/Code/IGP230/CSharp/projectTest/obj/Debug/net7.0/projectTest.AssemblyInfoInputs.cache
+/Users/chang/Documents/ITD/Code/IGP230/CSharp/projectTest/obj/Debug/net7.0/projectTest.AssemblyInfo.cs
+/Users/chang/Documents/ITD/Code/IGP230/CSharp/projectTest/obj/Debug/net7.0/projectTest.csproj.CoreCompileInputs.cache
+/Users/chang/Documents/ITD/Code/IGP230/CSharp/projectTest/obj/Debug/net7.0/projectTest.dll
+/Users/chang/Documents/ITD/Code/IGP230/CSharp/projectTest/obj/Debug/net7.0/refint/projectTest.dll
+/Users/chang/Documents/ITD/Code/IGP230/CSharp/projectTest/obj/Debug/net7.0/projectTest.pdb
+/Users/chang/Documents/ITD/Code/IGP230/CSharp/projectTest/obj/Debug/net7.0/projectTest.genruntimeconfig.cache
+/Users/chang/Documents/ITD/Code/IGP230/CSharp/projectTest/obj/Debug/net7.0/ref/projectTest.dll

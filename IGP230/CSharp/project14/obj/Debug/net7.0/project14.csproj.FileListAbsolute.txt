@@ -1,0 +1,15 @@
+/Users/chang/Desktop/CSharp/project14/obj/Debug/net7.0/project14.csproj.AssemblyReference.cache
+/Users/chang/Desktop/CSharp/project14/obj/Debug/net7.0/project14.GeneratedMSBuildEditorConfig.editorconfig
+/Users/chang/Desktop/CSharp/project14/obj/Debug/net7.0/project14.AssemblyInfoInputs.cache
+/Users/chang/Desktop/CSharp/project14/obj/Debug/net7.0/project14.AssemblyInfo.cs
+/Users/chang/Desktop/CSharp/project14/obj/Debug/net7.0/project14.csproj.CoreCompileInputs.cache
+/Users/chang/Desktop/CSharp/project14/bin/Debug/net7.0/project14
+/Users/chang/Desktop/CSharp/project14/bin/Debug/net7.0/project14.deps.json
+/Users/chang/Desktop/CSharp/project14/bin/Debug/net7.0/project14.runtimeconfig.json
+/Users/chang/Desktop/CSharp/project14/bin/Debug/net7.0/project14.dll
+/Users/chang/Desktop/CSharp/project14/bin/Debug/net7.0/project14.pdb
+/Users/chang/Desktop/CSharp/project14/obj/Debug/net7.0/project14.dll
+/Users/chang/Desktop/CSharp/project14/obj/Debug/net7.0/refint/project14.dll
+/Users/chang/Desktop/CSharp/project14/obj/Debug/net7.0/project14.pdb
+/Users/chang/Desktop/CSharp/project14/obj/Debug/net7.0/project14.genruntimeconfig.cache
+/Users/chang/Desktop/CSharp/project14/obj/Debug/net7.0/ref/project14.dll

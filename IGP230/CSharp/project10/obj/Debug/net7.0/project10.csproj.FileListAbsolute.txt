@@ -1,0 +1,15 @@
+/Users/chang/Desktop/CSharp/project10/bin/Debug/net7.0/project10
+/Users/chang/Desktop/CSharp/project10/bin/Debug/net7.0/project10.deps.json
+/Users/chang/Desktop/CSharp/project10/bin/Debug/net7.0/project10.runtimeconfig.json
+/Users/chang/Desktop/CSharp/project10/bin/Debug/net7.0/project10.dll
+/Users/chang/Desktop/CSharp/project10/bin/Debug/net7.0/project10.pdb
+/Users/chang/Desktop/CSharp/project10/obj/Debug/net7.0/project10.csproj.AssemblyReference.cache
+/Users/chang/Desktop/CSharp/project10/obj/Debug/net7.0/project10.GeneratedMSBuildEditorConfig.editorconfig
+/Users/chang/Desktop/CSharp/project10/obj/Debug/net7.0/project10.AssemblyInfoInputs.cache
+/Users/chang/Desktop/CSharp/project10/obj/Debug/net7.0/project10.AssemblyInfo.cs
+/Users/chang/Desktop/CSharp/project10/obj/Debug/net7.0/project10.csproj.CoreCompileInputs.cache
+/Users/chang/Desktop/CSharp/project10/obj/Debug/net7.0/project10.dll
+/Users/chang/Desktop/CSharp/project10/obj/Debug/net7.0/refint/project10.dll
+/Users/chang/Desktop/CSharp/project10/obj/Debug/net7.0/project10.pdb
+/Users/chang/Desktop/CSharp/project10/obj/Debug/net7.0/project10.genruntimeconfig.cache
+/Users/chang/Desktop/CSharp/project10/obj/Debug/net7.0/ref/project10.dll

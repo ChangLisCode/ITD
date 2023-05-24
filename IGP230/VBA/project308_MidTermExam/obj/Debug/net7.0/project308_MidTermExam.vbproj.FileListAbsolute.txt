@@ -1,0 +1,15 @@
+/Users/chang/Documents/ITD/Code/IGP230/VBA/project308_MidTermExam/bin/Debug/net7.0/project308_MidTermExam
+/Users/chang/Documents/ITD/Code/IGP230/VBA/project308_MidTermExam/bin/Debug/net7.0/project308_MidTermExam.deps.json
+/Users/chang/Documents/ITD/Code/IGP230/VBA/project308_MidTermExam/bin/Debug/net7.0/project308_MidTermExam.runtimeconfig.json
+/Users/chang/Documents/ITD/Code/IGP230/VBA/project308_MidTermExam/bin/Debug/net7.0/project308_MidTermExam.dll
+/Users/chang/Documents/ITD/Code/IGP230/VBA/project308_MidTermExam/bin/Debug/net7.0/project308_MidTermExam.pdb
+/Users/chang/Documents/ITD/Code/IGP230/VBA/project308_MidTermExam/obj/Debug/net7.0/project308_MidTermExam.vbproj.AssemblyReference.cache
+/Users/chang/Documents/ITD/Code/IGP230/VBA/project308_MidTermExam/obj/Debug/net7.0/project308_MidTermExam.GeneratedMSBuildEditorConfig.editorconfig
+/Users/chang/Documents/ITD/Code/IGP230/VBA/project308_MidTermExam/obj/Debug/net7.0/project308_MidTermExam.AssemblyInfoInputs.cache
+/Users/chang/Documents/ITD/Code/IGP230/VBA/project308_MidTermExam/obj/Debug/net7.0/project308_MidTermExam.AssemblyInfo.vb
+/Users/chang/Documents/ITD/Code/IGP230/VBA/project308_MidTermExam/obj/Debug/net7.0/project308_MidTermExam.vbproj.CoreCompileInputs.cache
+/Users/chang/Documents/ITD/Code/IGP230/VBA/project308_MidTermExam/obj/Debug/net7.0/project308_MidTermExam.dll
+/Users/chang/Documents/ITD/Code/IGP230/VBA/project308_MidTermExam/obj/Debug/net7.0/refint/project308_MidTermExam.dll
+/Users/chang/Documents/ITD/Code/IGP230/VBA/project308_MidTermExam/obj/Debug/net7.0/project308_MidTermExam.pdb
+/Users/chang/Documents/ITD/Code/IGP230/VBA/project308_MidTermExam/obj/Debug/net7.0/project308_MidTermExam.genruntimeconfig.cache
+/Users/chang/Documents/ITD/Code/IGP230/VBA/project308_MidTermExam/obj/Debug/net7.0/ref/project308_MidTermExam.dll

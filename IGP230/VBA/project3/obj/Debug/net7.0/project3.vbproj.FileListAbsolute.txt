@@ -1,0 +1,15 @@
+/Users/chang/Documents/ITD/Code/IGP230/VBA/project3/bin/Debug/net7.0/project3
+/Users/chang/Documents/ITD/Code/IGP230/VBA/project3/bin/Debug/net7.0/project3.deps.json
+/Users/chang/Documents/ITD/Code/IGP230/VBA/project3/bin/Debug/net7.0/project3.runtimeconfig.json
+/Users/chang/Documents/ITD/Code/IGP230/VBA/project3/bin/Debug/net7.0/project3.dll
+/Users/chang/Documents/ITD/Code/IGP230/VBA/project3/bin/Debug/net7.0/project3.pdb
+/Users/chang/Documents/ITD/Code/IGP230/VBA/project3/obj/Debug/net7.0/project3.vbproj.AssemblyReference.cache
+/Users/chang/Documents/ITD/Code/IGP230/VBA/project3/obj/Debug/net7.0/project3.GeneratedMSBuildEditorConfig.editorconfig
+/Users/chang/Documents/ITD/Code/IGP230/VBA/project3/obj/Debug/net7.0/project3.AssemblyInfoInputs.cache
+/Users/chang/Documents/ITD/Code/IGP230/VBA/project3/obj/Debug/net7.0/project3.AssemblyInfo.vb
+/Users/chang/Documents/ITD/Code/IGP230/VBA/project3/obj/Debug/net7.0/project3.vbproj.CoreCompileInputs.cache
+/Users/chang/Documents/ITD/Code/IGP230/VBA/project3/obj/Debug/net7.0/project3.dll
+/Users/chang/Documents/ITD/Code/IGP230/VBA/project3/obj/Debug/net7.0/refint/project3.dll
+/Users/chang/Documents/ITD/Code/IGP230/VBA/project3/obj/Debug/net7.0/project3.pdb
+/Users/chang/Documents/ITD/Code/IGP230/VBA/project3/obj/Debug/net7.0/project3.genruntimeconfig.cache
+/Users/chang/Documents/ITD/Code/IGP230/VBA/project3/obj/Debug/net7.0/ref/project3.dll

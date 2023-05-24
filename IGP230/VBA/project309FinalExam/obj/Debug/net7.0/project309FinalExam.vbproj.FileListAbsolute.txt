@@ -1,0 +1,15 @@
+/Users/chang/Documents/ITD/Code/IGP230/VBA/project309FinalExam/obj/Debug/net7.0/project309FinalExam.vbproj.AssemblyReference.cache
+/Users/chang/Documents/ITD/Code/IGP230/VBA/project309FinalExam/obj/Debug/net7.0/project309FinalExam.GeneratedMSBuildEditorConfig.editorconfig
+/Users/chang/Documents/ITD/Code/IGP230/VBA/project309FinalExam/obj/Debug/net7.0/project309FinalExam.AssemblyInfoInputs.cache
+/Users/chang/Documents/ITD/Code/IGP230/VBA/project309FinalExam/obj/Debug/net7.0/project309FinalExam.AssemblyInfo.vb
+/Users/chang/Documents/ITD/Code/IGP230/VBA/project309FinalExam/obj/Debug/net7.0/project309FinalExam.vbproj.CoreCompileInputs.cache
+/Users/chang/Documents/ITD/Code/IGP230/VBA/project309FinalExam/bin/Debug/net7.0/project309FinalExam
+/Users/chang/Documents/ITD/Code/IGP230/VBA/project309FinalExam/bin/Debug/net7.0/project309FinalExam.deps.json
+/Users/chang/Documents/ITD/Code/IGP230/VBA/project309FinalExam/bin/Debug/net7.0/project309FinalExam.runtimeconfig.json
+/Users/chang/Documents/ITD/Code/IGP230/VBA/project309FinalExam/bin/Debug/net7.0/project309FinalExam.dll
+/Users/chang/Documents/ITD/Code/IGP230/VBA/project309FinalExam/bin/Debug/net7.0/project309FinalExam.pdb
+/Users/chang/Documents/ITD/Code/IGP230/VBA/project309FinalExam/obj/Debug/net7.0/project309FinalExam.dll
+/Users/chang/Documents/ITD/Code/IGP230/VBA/project309FinalExam/obj/Debug/net7.0/refint/project309FinalExam.dll
+/Users/chang/Documents/ITD/Code/IGP230/VBA/project309FinalExam/obj/Debug/net7.0/project309FinalExam.pdb
+/Users/chang/Documents/ITD/Code/IGP230/VBA/project309FinalExam/obj/Debug/net7.0/project309FinalExam.genruntimeconfig.cache
+/Users/chang/Documents/ITD/Code/IGP230/VBA/project309FinalExam/obj/Debug/net7.0/ref/project309FinalExam.dll

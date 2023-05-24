@@ -1,0 +1,15 @@
+/Users/chang/Desktop/CSharp/project2/bin/Debug/net7.0/project2
+/Users/chang/Desktop/CSharp/project2/bin/Debug/net7.0/project2.deps.json
+/Users/chang/Desktop/CSharp/project2/bin/Debug/net7.0/project2.runtimeconfig.json
+/Users/chang/Desktop/CSharp/project2/bin/Debug/net7.0/project2.dll
+/Users/chang/Desktop/CSharp/project2/bin/Debug/net7.0/project2.pdb
+/Users/chang/Desktop/CSharp/project2/obj/Debug/net7.0/project2.csproj.AssemblyReference.cache
+/Users/chang/Desktop/CSharp/project2/obj/Debug/net7.0/project2.GeneratedMSBuildEditorConfig.editorconfig
+/Users/chang/Desktop/CSharp/project2/obj/Debug/net7.0/project2.AssemblyInfoInputs.cache
+/Users/chang/Desktop/CSharp/project2/obj/Debug/net7.0/project2.AssemblyInfo.cs
+/Users/chang/Desktop/CSharp/project2/obj/Debug/net7.0/project2.csproj.CoreCompileInputs.cache
+/Users/chang/Desktop/CSharp/project2/obj/Debug/net7.0/project2.dll
+/Users/chang/Desktop/CSharp/project2/obj/Debug/net7.0/refint/project2.dll
+/Users/chang/Desktop/CSharp/project2/obj/Debug/net7.0/project2.pdb
+/Users/chang/Desktop/CSharp/project2/obj/Debug/net7.0/project2.genruntimeconfig.cache
+/Users/chang/Desktop/CSharp/project2/obj/Debug/net7.0/ref/project2.dll

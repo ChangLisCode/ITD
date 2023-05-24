@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>project4</name>
+    </assembly>
+    <members>
+        <member name="M:Comments.Program.Main(System.String[])">
+            Hello, this is XML documents
+            <summary>
+            here is summary
+            </summary>
+            <param name = 'args'> an array of string arguents from command line</param>
+            <return>
+            got return value
+            </return>
+        </member>
+    </members>
+</doc>

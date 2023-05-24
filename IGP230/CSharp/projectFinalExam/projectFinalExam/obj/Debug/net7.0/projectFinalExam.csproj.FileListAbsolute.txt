@@ -1,0 +1,15 @@
+/Users/chang/Documents/ITD/Code/IGP230/CSharp/projectFinalExam/projectFinalExam/bin/Debug/net7.0/projectFinalExam
+/Users/chang/Documents/ITD/Code/IGP230/CSharp/projectFinalExam/projectFinalExam/bin/Debug/net7.0/projectFinalExam.deps.json
+/Users/chang/Documents/ITD/Code/IGP230/CSharp/projectFinalExam/projectFinalExam/bin/Debug/net7.0/projectFinalExam.runtimeconfig.json
+/Users/chang/Documents/ITD/Code/IGP230/CSharp/projectFinalExam/projectFinalExam/bin/Debug/net7.0/projectFinalExam.dll
+/Users/chang/Documents/ITD/Code/IGP230/CSharp/projectFinalExam/projectFinalExam/bin/Debug/net7.0/projectFinalExam.pdb
+/Users/chang/Documents/ITD/Code/IGP230/CSharp/projectFinalExam/projectFinalExam/obj/Debug/net7.0/projectFinalExam.csproj.AssemblyReference.cache
+/Users/chang/Documents/ITD/Code/IGP230/CSharp/projectFinalExam/projectFinalExam/obj/Debug/net7.0/projectFinalExam.GeneratedMSBuildEditorConfig.editorconfig
+/Users/chang/Documents/ITD/Code/IGP230/CSharp/projectFinalExam/projectFinalExam/obj/Debug/net7.0/projectFinalExam.AssemblyInfoInputs.cache
+/Users/chang/Documents/ITD/Code/IGP230/CSharp/projectFinalExam/projectFinalExam/obj/Debug/net7.0/projectFinalExam.AssemblyInfo.cs
+/Users/chang/Documents/ITD/Code/IGP230/CSharp/projectFinalExam/projectFinalExam/obj/Debug/net7.0/projectFinalExam.csproj.CoreCompileInputs.cache
+/Users/chang/Documents/ITD/Code/IGP230/CSharp/projectFinalExam/projectFinalExam/obj/Debug/net7.0/projectFinalExam.dll
+/Users/chang/Documents/ITD/Code/IGP230/CSharp/projectFinalExam/projectFinalExam/obj/Debug/net7.0/refint/projectFinalExam.dll
+/Users/chang/Documents/ITD/Code/IGP230/CSharp/projectFinalExam/projectFinalExam/obj/Debug/net7.0/projectFinalExam.pdb
+/Users/chang/Documents/ITD/Code/IGP230/CSharp/projectFinalExam/projectFinalExam/obj/Debug/net7.0/projectFinalExam.genruntimeconfig.cache
+/Users/chang/Documents/ITD/Code/IGP230/CSharp/projectFinalExam/projectFinalExam/obj/Debug/net7.0/ref/projectFinalExam.dll

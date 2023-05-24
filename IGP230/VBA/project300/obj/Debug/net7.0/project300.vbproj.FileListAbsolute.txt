@@ -1,0 +1,15 @@
+/Users/chang/Documents/ITD/Code/IGP230/VBA/project300/bin/Debug/net7.0/project300
+/Users/chang/Documents/ITD/Code/IGP230/VBA/project300/bin/Debug/net7.0/project300.deps.json
+/Users/chang/Documents/ITD/Code/IGP230/VBA/project300/bin/Debug/net7.0/project300.runtimeconfig.json
+/Users/chang/Documents/ITD/Code/IGP230/VBA/project300/bin/Debug/net7.0/project300.dll
+/Users/chang/Documents/ITD/Code/IGP230/VBA/project300/bin/Debug/net7.0/project300.pdb
+/Users/chang/Documents/ITD/Code/IGP230/VBA/project300/obj/Debug/net7.0/project300.vbproj.AssemblyReference.cache
+/Users/chang/Documents/ITD/Code/IGP230/VBA/project300/obj/Debug/net7.0/project300.GeneratedMSBuildEditorConfig.editorconfig
+/Users/chang/Documents/ITD/Code/IGP230/VBA/project300/obj/Debug/net7.0/project300.AssemblyInfoInputs.cache
+/Users/chang/Documents/ITD/Code/IGP230/VBA/project300/obj/Debug/net7.0/project300.AssemblyInfo.vb
+/Users/chang/Documents/ITD/Code/IGP230/VBA/project300/obj/Debug/net7.0/project300.vbproj.CoreCompileInputs.cache
+/Users/chang/Documents/ITD/Code/IGP230/VBA/project300/obj/Debug/net7.0/project300.dll
+/Users/chang/Documents/ITD/Code/IGP230/VBA/project300/obj/Debug/net7.0/refint/project300.dll
+/Users/chang/Documents/ITD/Code/IGP230/VBA/project300/obj/Debug/net7.0/project300.pdb
+/Users/chang/Documents/ITD/Code/IGP230/VBA/project300/obj/Debug/net7.0/project300.genruntimeconfig.cache
+/Users/chang/Documents/ITD/Code/IGP230/VBA/project300/obj/Debug/net7.0/ref/project300.dll
