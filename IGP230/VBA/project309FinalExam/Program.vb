@@ -223,16 +223,15 @@ Module MainModule
         Dim password As String
 
         Console.WriteLine("input your user name: ")
-        username = ReadLine()
+        username = Console.ReadLine()
 
         Console.WriteLine("input your user password: ")
-        password = ReadLine()
+        password = Console.ReadLine()
 
         Dim enteredUsername As String = Console.ReadLine()
         Dim enteredPassword As String = Console.ReadLine()
 
-        Dim authenticator As New Authenticator(username, password)
-        Dim isAuthenticated As Boolean = authenticator.Authenticate(enteredUsername, enteredPassword)
+        Dim isAuthenticated As New Authenticator(username, password)
 
         If isAuthenticated Then
             Console.WriteLine("Authentication successful!")
@@ -241,7 +240,6 @@ Module MainModule
         End If
 
         ' Authenticate user
-        Dim isAuthenticated As Boolean = realEstateSystem.AuthenticateUser("username", "password")
         If isAuthenticated Then
             ' Perform operations available to authenticated users
             realEstateSystem.UpdateProperty(1, "456 Oak St", "House", 250000, "Available")

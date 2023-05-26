@@ -11,11 +11,11 @@ namespace Project2.Controllers
             return View();
         }
 
-        public IActionResult page1()
+        public IActionResult Page1()
         {
             return View();
         }
-        public IActionResult page2()
+        public IActionResult Page2()
         {
             return View();
         }

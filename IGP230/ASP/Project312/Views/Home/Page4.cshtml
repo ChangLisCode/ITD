@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Work BC - Application</title>
+  <link rel="stylesheet" href="~/css/styles.css">
+</head>
+<body>
+  <header>
+    <h1>Welcome to Work BC</h1>
+    <nav>
+      <ul>
+        <div class="dropdown">
+          <button class="dropbtn">Home</button>
+          <div class="dropdown-content">
+            <a href="~/Home/index">Home</a>
+
+          </div>
+        </div>
+
+        <div class="dropdown">
+          <button class="dropbtn">Cities</button>
+          <div class="dropdown-content">
+            <a href="~/Home/Page2">Whistler</a>
+            <a href="~/Home/Page2">Squamish</a>
+            <a href="~/Home/Page2">Nanaimo</a>
+            <a href="~/Home/Page2">Kelowna</a>
+          </div>
+        </div>
+
+        <div class="dropdown">
+          <button class="dropbtn">Apply</button>
+          <div class="dropdown-content">
+            <a href="~/Home/Page3">Employer</a>
+            <a href="~/Home/Page4">Candidate</a>
+          </div>
+        </div>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section>
+      <h2>Application - Candidate</h2>
+      <form action="part2.aspx" method="POST">
+        <label for="firstName">First Name:</label>
+        <input type="text" id="firstName" name="firstName" required>
+        <br>
+        <label for="lastName">Last Name:</label>
+        <input type="text" id="lastName" name="lastName" required>
+        <br>
+        <label for="Date of birth">Date of birth[YY-MM-DD]:</label>
+        <input type="text" id="dob" name="dob" required>
+        <br>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+        <br>
+        <label for="phone">Phone Number:</label>
+        <input type="tel" id="phone" name="phone" required>
+        <br>
+        <label for="Social Security number">Social Security number:</label>
+        <input type="tel" id="phone" name="phone" required>
+        <br>
+        <label for="Bank account details">Bank account details:</label>
+        <input type="Bank account details" id="Bank account details" name="Bank account details" required>
+        <br>
+        <label for="Educational background">Educational background:</label>
+        <input type="Educational background" id="Educational background" name="Educational background" required>
+        <br>
+        <label for="phone">Tax-related information:</label>
+        <input type="Tax-related information" id="pTax-related informationhone" name="Tax-related information" required>
+        <br>
+        
+      </form>
+    </section>
+  </main>
+</body>
+</html>

@@ -1,0 +1,103 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+  <title>Car Dealership</title>
+  <style>
+    .car-listing {
+      border: 1px solid #ccc;
+      padding: 10px;
+      margin-bottom: 20px;
+    }
+
+    .car-image {
+      width: 200px;
+      height: 150px;
+      object-fit: cover;
+    }
+
+    .dropbtn {
+      background-color: #04AA6D;
+      color: white;
+      padding: 16px;
+      font-size: 16px;
+      border: none;
+    }
+
+    .dropdown {
+      position: relative;
+      display: inline-block;
+    }
+
+    .dropdown-content {
+      display: none;
+      position: absolute;
+      background-color: #f1f1f1;
+      min-width: 160px;
+      box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+      z-index: 1;
+    }
+
+    .dropdown-content a {
+      color: black;
+      padding: 12px 16px;
+      text-decoration: none;
+      display: block;
+    }
+
+    .dropdown-content a:hover {background-color: #ddd;}
+
+    .dropdown:hover .dropdown-content {display: block;}
+
+    .dropdown:hover .dropbtn {background-color: #3e8e41;}
+
+  </style>
+</head>
+<body>
+  <a asp-controller="Home" asp-action="Page1">Go to Page1</a>
+  <a asp-controller="Home" asp-action="Page2">Go to Page2</a>
+  <a asp-controller="Home" asp-action="Page3">Go to Page3</a>
+
+  <h1>Welcome to ITD-1 Car Dealership</h1>
+
+  <h2>Featured Cars</h2>
+  <div class="car-listing">
+    <img src="car1.jpg" alt="Car 1" class="car-image">
+    <h3>Car 1</h3>
+    <p>Price: $20,000</p>
+    <p>Year: 2022</p>
+    <p>Mileage: 10,000</p>
+    <p>Description: Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+  </div>
+
+  <div class="car-listing">
+    <img src="car2.jpg" alt="Car 2" class="car-image">
+    <h3>Car 2</h3>
+    <p>Price: $25,000</p>
+    <p>Year: 2021</p>
+    <p>Mileage: 5,000</p>
+    <p>Description: Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+  </div>
+
+
+  <h2>Contact Us</h2>
+  <form>
+    <label for="name">Name:</label>
+    <input type="text" id="name" name="name" required><br>
+
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email" required><br>
+
+    <label for="message">Message:</label>
+    <textarea id="message" name="message" required></textarea><br>
+
+    <input type="submit" value="Submit">
+  </form>
+
+<img src="~/images/image1.jpg" alt="Image 1" />
+<img src="~/images/image2.jpg" alt="Image 1" />
+<img src="~/images/image3.jpg" alt="Image 1" />
+<img src="~/images/image4.jpg" alt="Image 1" />
+<img src="~/images/image5.jpg" alt="Image 1" />
+<img src="~/images/image6.jpg" alt="Image 1" />
+</body>
+</html>
